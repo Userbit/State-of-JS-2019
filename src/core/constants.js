@@ -10,6 +10,7 @@ export let colors = {
     grey: '#d9dedf',
     greyMedium: '#cecdcc',
     greyMediumer: '#616868',
+    greyMediumest: '#5c6069',
     greyDark: '#4d4f4f',
     greyDarkish: '#2a2d33',
     greyDarker: '#222429',
@@ -138,6 +139,10 @@ export const otherColors = [
     {
         id: 'background',
         color: colors.greyDarker
+    },
+    {
+        id: 'stroke',
+        color: colors.greyMediumest
     },
     {
         id: 'legendWithLink',
@@ -317,5 +322,6 @@ export const emailOctopusSiteKey = '6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6'
 export const emailOctopusCode = 'hp463dc2a9-b2ff-11e8-a3c9-06b79b628af2'
 
 export const totalCount = 21717
+export const totalCountRounded = 20000 // used by scatterplot chart
 
 export const websiteTitle = 'The State of JavaScript 2019'
